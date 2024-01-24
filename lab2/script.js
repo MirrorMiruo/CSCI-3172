@@ -28,6 +28,7 @@ function arithmetic_operation(num1, num2) {
 }
 
 console.log(arithmetic_operation(6, 3));
+//Output: Add: 9, Subtract: 3, Multiply: 18, Divide: 2
 
 //Question c:
 function calculateRectangleArea(length, width) {
