@@ -22,7 +22,7 @@ function arithmetic_operation(num1, num2) {
   const add = num1 + num2;
   const subtract = num1 - num2;
   const multiply = num1 * num2;
-  const divide = num1 / num2;
+  const divide = num2 = 0? num1 / num2 : "Cannot be divided by 0!";
 
   return `Add: ${add}, Subtract: ${subtract}, Multiply: ${multiply}, Divide: ${divide}`;
 }
