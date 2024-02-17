@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #container {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border: rgba(128, 0, 128, 0.438) 2px solid;
+      padding-bottom: 20px;
+      width: 24%;
+    }
+
+    #form {
+      margin-top: 10%;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <p>Please select your favoirte date:</p>
+      <select id="selectDate">
+        <option id="monday" value="monday" selected>Monday</option>
+        <option id="tuesday" value="tuesday">Tuesday</option>
+        <option id="wednesday" value="wednesday">Wednesday</option>
+        <option id="thursday" value="thursday">Thursday</option>
+        <option id="friday" value="friday">Friday</option>
+        <option id="saturday" value="saturday">Saturday</option>
+        <option id="sunday" value="sunday">Sunday</option>
+      </select>
+    </div>
+
+    <form method="get" id="form">
+      <label>Please enter your number:</label>
+      <input type="number" id="input" name="input" min="1" />
+      <button type="submit" id="submit" name="submit">Submit</button>
+      <p id="message"></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
