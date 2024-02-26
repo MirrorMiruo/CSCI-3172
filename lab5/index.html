@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 34%;
+        margin-top: 12%;
+        text-align: center;
+        border: rgb(226, 160, 171) 4px solid;
+        padding: 4%;
+      }
+
+      #results {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 34%;
+      }
+
+      #results p {
+        text-align: center;
+        border: rgba(0, 122, 216, 0.263) 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Please enter numbers separated with a comma(',')</label>
+      <input
+        type="text"
+        class="textInput"
+        name="textInput"
+        placeholder="e.g 1,50,25"
+      />
+      <button type="button">Calculate</button>
+    </form>
+    <div id="results"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
